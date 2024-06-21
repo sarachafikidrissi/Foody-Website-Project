@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import './Home.css'
 import Header from '../../Components/Header/Header'
 import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
-import FoodDisplay from '../../FoodDisplay/FoodDisplay'
-
+import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
 function Home() {
 
   const [category, setCategory] = useState('All')
