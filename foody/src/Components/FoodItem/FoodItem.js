@@ -14,10 +14,8 @@ function FoodItem({id, name, price, description, image}) {
             <p>{name}</p>
             <img src={assets.rating_starts} alt="" />
         </div>
-        <div className="food-item-description">
-            <p className='food-item-description'>{description}</p>
-            <p className='food-item-price'>${price}</p>
-        </div>
+        <p className='food-item-desc'>{description}</p>
+        <p className='food-item-price'>${price}</p>
 
       </div>
     </div>
