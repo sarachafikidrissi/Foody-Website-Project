@@ -40,3 +40,32 @@
     color: #FF6347;
     margin: 10px 0px;
 }
+
+.food-item-image-container {
+    position: relative;
+}
+
+.food-item-image-container .add {
+    position: absolute;
+    width: 35px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.food-item-counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.food-item-counter img {
+    width: 30px;   
+}
