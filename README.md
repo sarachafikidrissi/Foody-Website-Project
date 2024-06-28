@@ -1,6 +1,3 @@
-# Foody-Website-Project
-Webstack - Portfolio Project
-
 
 # My Webstack - Portfolio Project
 
@@ -10,8 +7,7 @@ Webstack - Portfolio Project
 
 This Project is about building a food ordering website that's super easy to use.
 
-- Deployed Site: https://locallinker-39e1d033ce89.herokuapp.com
-- Final Project Blog Article: [Link to blog article]
+- Deployed Site: 
 
 ### Authors
 
