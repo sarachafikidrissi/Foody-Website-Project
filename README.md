@@ -7,7 +7,7 @@
 
 This Project is about building a food ordering website that's super easy to use.
 
-- Deployed Site: 
+- Deployed Site: (https://graceful-babka-431732.netlify.app/)
 
 ### Authors
 
