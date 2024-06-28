@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 import './Navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { assets } from '../../assets/assets'
 import {StoreContext} from '../../Context/StoreContext'
 
@@ -10,8 +10,15 @@ function Navbar({setShowLogin}) {
 
     const {getTotalCartAmount} = useContext(StoreContext);
 
+    const location = useLocation();
+    const isHome = location.pathname === '/';
+
   return (
     <div className='navbar'>
+      {isHome && (<div class="top">
+        <a href="/">Back To Top</a>
+      </div>)}
+      
       <Link to='/'><img src={assets.logo} alt="" className='logo' /></Link>
       <ul className="navbar-menu">
         <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>

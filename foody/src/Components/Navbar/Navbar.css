@@ -62,7 +62,20 @@
     right: -8px;
 }
 
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20;
+    border-radius: 25px;
+    background-color: tomato;
+    padding: 2vh;
+    color: white;
+    display: none;
+}
+
 @media (max-width: 1050px) {
+    
     .navbar .logo {
         width: 140px;
     }
@@ -100,7 +113,17 @@
     }
 }
 @media (max-width: 750px) {
+    body{
+        padding-top: 0;
+    }
     .navbar-menu {
         display: none;
+    }
+    .navbar{
+        position:static;
+        width: 100%;
+    }
+    .top {
+        display: block;
     }
 }
