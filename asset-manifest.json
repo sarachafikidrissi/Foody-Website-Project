@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sarachafikidrissi/Foody-Website-Project.git/static/css/main.7ff63657.css",
-    "main.js": "/sarachafikidrissi/Foody-Website-Project.git/static/js/main.1f65e7b8.js",
+    "main.js": "/sarachafikidrissi/Foody-Website-Project.git/static/js/main.794d08b3.js",
     "static/media/header_img.png": "/sarachafikidrissi/Foody-Website-Project.git/static/media/header_img.87c84a24f79531681564.png",
     "static/media/food_4.png": "/sarachafikidrissi/Foody-Website-Project.git/static/media/food_4.49c25dfbf26ca41b7c88.png",
     "static/media/food_8.png": "/sarachafikidrissi/Foody-Website-Project.git/static/media/food_8.84340adb61a67781e5a6.png",
@@ -45,10 +45,10 @@
     "static/media/menu_4.png": "/sarachafikidrissi/Foody-Website-Project.git/static/media/menu_4.954b7fb395c46eda438f.png",
     "index.html": "/sarachafikidrissi/Foody-Website-Project.git/index.html",
     "main.7ff63657.css.map": "/sarachafikidrissi/Foody-Website-Project.git/static/css/main.7ff63657.css.map",
-    "main.1f65e7b8.js.map": "/sarachafikidrissi/Foody-Website-Project.git/static/js/main.1f65e7b8.js.map"
+    "main.794d08b3.js.map": "/sarachafikidrissi/Foody-Website-Project.git/static/js/main.794d08b3.js.map"
   },
   "entrypoints": [
     "static/css/main.7ff63657.css",
-    "static/js/main.1f65e7b8.js"
+    "static/js/main.794d08b3.js"
   ]
 }
