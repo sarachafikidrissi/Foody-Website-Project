@@ -14,9 +14,9 @@ function Navbar({setShowLogin}) {
     const isHome = location.pathname === '/';
 
   return (
-    <div className='navbar'>
+    <div className='navbar' id='navbar'>
       {isHome && (<div class="top">
-        <a href="/">Back To Top</a>
+        <a href="#navbar">Back To Top</a>
       </div>)}
       
       <Link to='/'><img src={assets.logo} alt="" className='logo' /></Link>
